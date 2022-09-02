@@ -1,15 +1,11 @@
 /** @file main.c
  **
- ** @brief Plantilla de archivos fuente
+ ** @brief Programa principal del TP2
  **
- ** Plantilla para los archivos de codigo fuente de prácticos de las 
- ** asignaturas Diseño Integrado de Sistemas Emebebidos y Sistemas Embebidos
- ** de Tiempo Real dictadas en de la Especialización en Integración de
- ** Sistemas Informaticos de la Univesidad Nacional de Tucumán
  ** 
  ** | RV | YYYY.MM.DD | Autor       | Descripción de los cambios              |
  ** |----|------------|-------------|-----------------------------------------|
- ** |  1 | 2022.08.27 | evolentini  | Version inicial del archivo             |
+ ** |  1 | 2022.08.27 | fedeiz      | Version inicial del archivo             |
  ** 
  ** @defgroup plantilla Plantilals de Archivos
  ** @brief Plantillas de archivos normalizadas
