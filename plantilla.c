@@ -32,14 +32,11 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef MAIN_H   /*! @cond    */
-#define MAIN_H   /*! @endcond */
-
-/** @file plantilla.h
+/** @file plantilla.c
  **
- ** @brief Plantilla de archivos de cabecera 
+ ** @brief Plantilla de archivos fuente
  **
- ** Plantilla para los archivos de cabeceras de las prácticos de las 
+ ** Plantilla para los archivos de codigo fuente de prácticos de las 
  ** asignaturas Diseño Integrado de Sistemas Emebebidos y Sistemas Embebidos
  ** de Tiempo Real dictadas en de la Especialización en Integración de
  ** Sistemas Informaticos de la Univesidad Nacional de Tucumán
@@ -53,27 +50,24 @@
  ** @{ 
  */
 
-/* === Inclusiones de archivos externos ==================================== */
+/* === Inclusiones de cabeceras ============================================ */
+#include "plantilla.h"
 
-/* === Cabecera C++ ======================================================== */
-#ifdef __cplusplus
-extern "C" {
-#endif
+/* === Definicion y Macros privados ======================================== */
 
-/* === Definicion y Macros publicos ======================================== */
+/* === Declaraciones de tipos de datos privados ============================ */
 
-/* == Declaraciones de tipos de datos publicos ============================= */
+/* === Definiciones de variables privadas ================================== */
 
-/* === Declaraciones de variables publicas ================================= */
+/* === Definiciones de variables publicas ================================== */
 
-/* === Declaraciones de funciones publicas ================================= */
-int main(void);
+/* === Declaraciones de funciones privadas ================================= */
+
+/* === Definiciones de funciones privadas ================================== */
+
+/* === Definiciones de funciones publicas ================================== */
 
 /* === Ciere de documentacion ============================================== */
-#ifdef __cplusplus
-}
-#endif
 
 /** @} Final de la definición del modulo para doxygen */
 
-#endif   /* PLANTILLA_H */

@@ -32,8 +32,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef MAIN_H   /*! @cond    */
-#define MAIN_H   /*! @endcond */
+#ifndef PLANTILLA_H   /*! @cond    */
+#define PLANTILLA_H   /*! @endcond */
 
 /** @file plantilla.h
  **
@@ -67,7 +67,6 @@ extern "C" {
 /* === Declaraciones de variables publicas ================================= */
 
 /* === Declaraciones de funciones publicas ================================= */
-int main(void);
 
 /* === Ciere de documentacion ============================================== */
 #ifdef __cplusplus

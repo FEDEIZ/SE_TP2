@@ -32,48 +32,39 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef MAIN_H   /*! @cond    */
-#define MAIN_H   /*! @endcond */
+#ifndef TEMPLATE_H
+#define TEMPLATE_H
 
-/** @file plantilla.h
+/** \brief Brief description of the file
  **
- ** @brief Plantilla de archivos de cabecera 
+ ** Full file description
  **
- ** Plantilla para los archivos de cabeceras de las prácticos de las 
- ** asignaturas Diseño Integrado de Sistemas Emebebidos y Sistemas Embebidos
- ** de Tiempo Real dictadas en de la Especialización en Integración de
- ** Sistemas Informaticos de la Univesidad Nacional de Tucumán
- ** 
- ** | RV | YYYY.MM.DD | Autor       | Descripción de los cambios              |
- ** |----|------------|-------------|-----------------------------------------|
- ** |  1 | 2022.08.27 | evolentini  | Version inicial del archivo             |
- ** 
- ** @defgroup plantilla Plantilals de Archivos
- ** @brief Plantillas de archivos normalizadas
- ** @{ 
- */
+ ** \addtogroup name Module denomination
+ ** \brief Brief description of the module
+ ** @{ */
 
-/* === Inclusiones de archivos externos ==================================== */
+/* === Headers files inclusions ================================================================ */
 
-/* === Cabecera C++ ======================================================== */
+/* === Cabecera C++ ============================================================================ */
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-/* === Definicion y Macros publicos ======================================== */
+/* === Public macros definitions =============================================================== */
+ 
+/* === Public data type declarations =========================================================== */
+ 
+/* === Public variable declarations ============================================================ */
 
-/* == Declaraciones de tipos de datos publicos ============================= */
+/* === Public function declarations ============================================================ */
 
-/* === Declaraciones de variables publicas ================================= */
+/* === End of documentation ==================================================================== */
 
-/* === Declaraciones de funciones publicas ================================= */
-int main(void);
-
-/* === Ciere de documentacion ============================================== */
 #ifdef __cplusplus
 }
 #endif
 
-/** @} Final de la definición del modulo para doxygen */
+/** @} End of module definition for doxygen */
 
-#endif   /* PLANTILLA_H */
+#endif   /* TEMPLATE_H */

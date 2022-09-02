@@ -15,7 +15,7 @@ clean: $(OUT_DIR)
 all: $(OBJ_FILES)
 	@echo Enlazando el binario final
 	@mkdir -p $(BIN_DIR)
-	@gcc $(OBJ_FILES) -o $(OBJ_DIR)/app.out
+	@gcc $(OBJ_FILES) -o $(BIN_DIR)/app.out
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 	@echo Compilando $< ...
