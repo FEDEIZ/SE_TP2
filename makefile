@@ -21,3 +21,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 	@echo Compilando $< ...
 	@mkdir -p $(OBJ_DIR)
 	@gcc -o $@ -c $< 
+
+doc:
+	@mkdir -p $(OUT_DIR)
+	@doxygen
