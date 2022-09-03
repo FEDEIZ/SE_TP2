@@ -1,36 +1,37 @@
 /** @file main.c
- **
- ** @brief Programa principal del TP2
- **
- ** 
- ** | RV | YYYY.MM.DD | Autor       | Descripción de los cambios              |
- ** |----|------------|-------------|-----------------------------------------|
- ** |  1 | 2022.08.27 | fedeiz      | Version inicial del archivo             |
- ** 
- ** @defgroup plantilla Plantilals de Archivos
- ** @brief Plantillas de archivos normalizadas
- ** @{ 
- */
+**
+** \brief Brief description of the file
 
-/* === Inclusiones de cabeceras ============================================ */
-#include "main.h"
+** | RV | YYYY.MM.DD | Autor       | Descripción de los cambios              |
+** |----|------------|-------------|-----------------------------------------|
+** |  1 | 2022.08.27 | fedeiz      | Version inicial del archivo             |
+**
+** 
+**
+
+
+/* === Headers files inclusions =============================================================== */
+
+#include "alumno.h"
 #include <stdio.h>
 #include "alumno.h"
 
-/* === Definicion y Macros privados ======================================== */
+/* === Macros definitions ====================================================================== */
 
-/* === Declaraciones de tipos de datos privados ============================ */
+/* === Private data type declarations ========================================================== */
 
-/* === Definiciones de variables privadas ================================== */
+/* === Private variable declarations =========================================================== */
 
-/* === Definiciones de variables publicas ================================== */
+/* === Private function declarations =========================================================== */
 
-/* === Declaraciones de funciones privadas ================================= */
+/* === Public variable definitions ============================================================= */
 
-/* === Definiciones de funciones privadas ================================== */
+/* === Private variable definitions ============================================================ */
 
-/* === Definiciones de funciones publicas ================================== */
+/* === Private function implementation ========================================================= */
 
+/* === Public function implementation ========================================================= */
+//! This function define an alumno struct and shows his properties
 int main(void) {
 
 	static const struct alumno_s alumno = {
@@ -44,10 +45,5 @@ int main(void) {
 	printf("Termina el programa principal\r\n");
 	return 0;
 }
-
-/* === Ciere de documentacion ============================================== */
-
-/** @} Final de la definición del modulo para doxygen */
-
-
+/* === End of documentation ==================================================================== */
 

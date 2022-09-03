@@ -1,41 +1,34 @@
-#ifndef MAIN_H   /*! @cond    */
-#define MAIN_H   /*! @endcond */
+#ifndef MAIN_H
+#define MAIN_H
 
-/** @file main.h
+/** \brief Header of main program
  **
- ** @brief Declaraciones del programa principal del TP2
- **
- ** 
- ** | RV | YYYY.MM.DD | Autor       | Descripción de los cambios              |
- ** |----|------------|-------------|-----------------------------------------|
- ** |  1 | 2022.08.27 | fedeiz      | Version inicial del archivo             |
- ** 
- ** @defgroup plantilla Plantilals de Archivos
- ** @brief Plantillas de archivos normalizadas
- ** @{ 
- */
+** | RV | YYYY.MM.DD | Author      | Changes description              |
+** |----|------------|-------------|----------------------------------|
+** |  1 | 2022.08.27 | fedeiz      | V1.0                             |
+**
 
-/* === Inclusiones de archivos externos ==================================== */
+/* === Headers files inclusions ================================================================ */
 
-/* === Cabecera C++ ======================================================== */
+/* === Cabecera C++ ============================================================================ */
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-/* === Definicion y Macros publicos ======================================== */
+/* === Public macros definitions =============================================================== */
+ 
+/* === Public data type declarations =========================================================== */
+ 
+/* === Public variable declarations ============================================================ */
 
-/* == Declaraciones de tipos de datos publicos ============================= */
-
-/* === Declaraciones de variables publicas ================================= */
-
-/* === Declaraciones de funciones publicas ================================= */
+/* === Public function declarations ============================================================ */
+//! main function
 int main(void);
+/* === End of documentation ==================================================================== */
 
-/* === Ciere de documentacion ============================================== */
 #ifdef __cplusplus
 }
 #endif
 
-/** @} Final de la definición del modulo para doxygen */
-
-#endif   /* PLANTILLA_H */
+#endif   /* MAIN_H */
